@@ -33,7 +33,7 @@ summary::-webkit-details-marker {
   overflow: hidden;
 }
 
-.header {
+.menu {
   min-height: 75px;
   background: #222222;
   display: -webkit-box;
@@ -53,7 +53,7 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 
-.header__left {
+.menu__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +63,7 @@ summary::-webkit-details-marker {
   gap: 41px;
 }
 
-.header__right {
+.menu__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,13 +73,13 @@ summary::-webkit-details-marker {
   gap: 33px;
 }
 
-.header__checkbox {
+.menu__checkbox {
   position: absolute;
   visibility: hidden;
   left: -9999999px;
 }
 
-.header__checkbox:checked~.mobile-menu {
+.menu__checkbox:checked~.mobile-menu {
   right: 0;
 }
 
@@ -180,7 +180,7 @@ summary::-webkit-details-marker {
 }
 
 .promo__info {
-  border-left: 12px solid #F16D7F;
+  border-left: 12px solid #cb4e5f;
   padding-left: 16px;
   margin-top: 48%;
 }
@@ -201,7 +201,7 @@ summary::-webkit-details-marker {
 }
 
 .red-heading {
-  color: #F16D7F;
+  color: #c12f43;
 }
 
 .black-heading {
@@ -329,7 +329,7 @@ summary::-webkit-details-marker {
   line-height: 17px;
   text-align: center;
   margin-top: 6px;
-  color: #9F9F9F;
+  color: #777373;
 }
 
 .product-box__content {
@@ -479,7 +479,7 @@ summary::-webkit-details-marker {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #F16D7F;
+  color: #bd4858;
 }
 
 .advantages {
